@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "parvasi",
+    "slug": "parvasi",
+    "version": "1.6.9",
+    
+    "icon": "./assets/parvasi_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/parvasi-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.parvasi.gfox"
+    },
+    "android": {
+      "package": "com.parvasi.gfox",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/parvasi_icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
